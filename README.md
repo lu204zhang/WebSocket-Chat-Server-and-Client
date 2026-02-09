@@ -1,4 +1,4 @@
-# CS6650 Assignment 1: WebSocket Chat Server and Client
+# WebSocket Chat Server and Client
 
 A WebSocket chat server (Spring Boot) and multithreaded Java clients for load testing. The server validates JSON messages and echoes them back; the clients simulate high-volume messaging (warmup + main phase up to 500K messages) and collect performance metrics.
 
@@ -58,7 +58,7 @@ cd client-part1
 mvn compile
 ```
 
-Run the main class **`client.Main`** from your IDE (with `client-part1` as the module), or run from the command line with the full classpath. Part 1 does not bundle the exec-maven-plugin; Part 2 does.
+Run the main class **`client.Main`** from your IDE (with `client-part1` as the module), or run from the command line with the full classpath.
 
 **Output:** Warmup phase (32 threads × 1000 messages), then main phase until 500K messages; final performance metrics (success, failure, wall time, throughput, connection stats).
 
