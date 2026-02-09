@@ -1,0 +1,28 @@
+
+--- Statistical Analysis ---
+Response time (ms) - Mean: 97.27, Median: 91, 95th percentile: 138, 99th percentile: 192, Min: 66, Max: 463
+Throughput per room (msg/s):
+  room 1: 181.30
+  room 2: 182.67
+  room 3: 183.73
+  room 4: 181.91
+  room 5: 182.38
+  room 6: 182.54
+  room 7: 184.41
+  room 8: 182.63
+  room 9: 182.53
+  room 10: 183.01
+  room 11: 182.73
+  room 12: 184.59
+  room 13: 182.51
+  room 14: 183.99
+  room 15: 183.90
+  room 16: 181.97
+  room 17: 184.95
+  room 18: 183.43
+  room 19: 182.64
+  room 20: 184.88
+Message type distribution:
+  TEXT: 421200 (90.0%)
+  JOIN: 23400 (5.0%)
+  LEAVE: 23400 (5.0%)
